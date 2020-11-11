@@ -40,6 +40,21 @@ a {
 	font-size: 14px;
 }
 
+p {
+	margin-top: 20px;
+	font-size: 20px;
+	line-height: 30px;
+	margin: 20px 0px 15px;
+	padding: 0px;
+	font-weight: 400;
+	color: #333;
+	font-family: nyt-imperial, georgia, 'times new roman', times, serif;
+}
+
+p small {
+	font-size: 12px;
+}
+
 .article-categories {
 	text-decoration: none;
 	color: black;
@@ -47,6 +62,7 @@ a {
 	font-weight: 700;
 	font-family: nyt-franklin, helvetica, arial, sans-serif;
 }
+
 .article-categories:hover {
 	text-decoration: underline;
 	cursor: pointer;
@@ -104,6 +120,8 @@ main {
 	margin-top: 10px;
 	color: #666;
 	font-size: 16px;
+	font-family: nyt-imperial, georgia, 'times new roman', times, serif;
+	width: 850px;
 }
 
 .description {
@@ -137,4 +155,26 @@ main {
 
 .space-between {
 	justify-content: space-between;
+}
+
+.subscribe-section {
+	margin-top: 20px;
+	text-align: center;
+}
+
+.subscribe-section hr {
+	width: 90px;
+	margin: 20px auto;
+}
+
+.subscribe-section a {
+	font-size: 1em;
+	position: relative;
+	top: 3px;
+	color: #326891;
+}
+
+.section-title {
+	font-size: 20px;
+	margin-top: 20px;
 }
