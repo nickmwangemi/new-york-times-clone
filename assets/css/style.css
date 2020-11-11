@@ -178,3 +178,43 @@ main {
 	font-size: 20px;
 	margin-top: 20px;
 }
+
+.inflation img {
+	margin-top: 10px;
+}
+
+.inflation {
+	width: 60vw;
+	margin: auto;
+	position: relative;
+}
+
+.inflation figure {
+	margin-top: 5px;
+}
+
+.inflation hr {
+	margin-top: 120px;
+	width: 80px;
+}
+
+.inflation-footer {
+	font-size: 13px;
+}
+
+.thumbnail-texts {
+	position: absolute;
+	top: 11.5vw;
+}
+
+.thumbnail-texts section:nth-child(2) {
+	position: relative;
+	top: 9vw;
+}
+
+.thumbnail-texts p {
+	font-size: 0.65em;
+	width: 25%;
+	float: left;
+	padding: 7px;
+}
