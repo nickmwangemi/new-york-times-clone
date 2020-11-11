@@ -80,3 +80,28 @@ a {
 .right-section {
 	text-align: right;
 }
+
+/* Main Section */
+
+main {
+	position: relative;
+	top: 60px;
+}
+
+.first-section {
+	width: 70vw;
+	margin: 30px auto;
+}
+
+.first-section h1 {
+	width: 50%;
+	margin: 20px auto;
+	font-family: nyt-cheltenham, georgia, 'times new roman', times, serif;
+	font-size: 40px;
+}
+
+.banner-caption {
+	margin-top: 10px;
+	color: #666;
+	font-size: 16px;
+}
